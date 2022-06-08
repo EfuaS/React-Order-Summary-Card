@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display');
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: 
+        url(./images/pattern-background-desktop.svg);
+    background-position: top; /* this positions the first image */
+    background-repeat: no-repeat; 
+    background-color: #e2e7fe;
+
+}
+
+.orderCard{
+    background-color: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    padding-bottom: 30px;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+}
+
+.image{
+    border-radius: 15px 15px 0px 0px;
+}
+
+
+.orderText{
+    text-align: center;
+    font-size: 18px;
+}
+
+h2{
+    font-size: 27px;
+    color: black;
+}
+
+.plan{
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.productInfo{
+    background-color: hsl(225, 100%, 98%);
+    margin-left: 30px;
+    height: 100px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: 70px 200px auto;
+    border-radius: 10px;
+
+}
+
+.musicicon{
+    padding: 25px;
+    width: 53px;
+}
+
+p{
+    color: rgb(99, 99, 99);
+
+}
+
+.producttext{
+    line-height: 8px;
+    padding: 17px;
+    margin-left: 12px;
+}
+
+a{
+    font-size: 18px;
+    padding: 30px;
+    margin-top: 7px;
+    color: rgb(33, 3, 102);
+    cursor: pointer;
+}
+
+.buttons{
+    text-align: center;
+
+
+}
+
+.paymentbtn{
+    width: 400px;
+    border: 0px;
+    margin: 30px;
+    border-radius: 15px;
+    background-color: hsl(251, 100%, 59%);
+    box-shadow: 20px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 15px;
+    cursor: pointer;
+    box-shadow: 0px 15px 20px 1px rgb(110, 110, 192);
+    -webkit-box-shadow: 0px 12px 20px 1px rgb(168, 168, 252);
+}
+
+
