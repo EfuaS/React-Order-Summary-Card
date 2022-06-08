@@ -2,23 +2,29 @@
 
 body{
     font-family: 'Red Hat Display', sans-serif;
+    background-image: 
+        url(./images/pattern-background-desktop.svg);
+    background-position: top; /* this positions the first image */
+    background-repeat: no-repeat; 
+    background-color: #e2e7fe;
 
 }
 
 .orderCard{
     background-color: #fff;
-    padding: 22px;
     position: fixed;
     top: 50%;
     left: 50%;
-    width: 400px;
+    width: 450px;
+    padding-bottom: 30px;
     transform: translate(-50%, -50%);
-    border-radius: 8px;
+    border-radius: 15px;
 }
 
 .image{
     border-radius: 15px 15px 0px 0px;
 }
+
 
 .orderText{
     text-align: center;
@@ -68,10 +74,12 @@ a{
     padding: 30px;
     margin-top: 7px;
     color: rgb(33, 3, 102);
+    cursor: pointer;
 }
 
 .buttons{
     text-align: center;
+
 
 }
 
@@ -86,6 +94,7 @@ a{
     font-size: 17px;
     font-weight: 700;
     padding: 15px;
+    cursor: pointer;
     box-shadow: 0px 15px 20px 1px rgb(110, 110, 192);
     -webkit-box-shadow: 0px 12px 20px 1px rgb(168, 168, 252);
 }
