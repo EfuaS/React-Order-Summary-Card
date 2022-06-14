@@ -1,0 +1,32 @@
+.plan{
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.productInfo{
+    background-color: hsl(225, 100%, 98%);
+    margin-left: 30px;
+    height: 100px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: 70px 200px auto;
+    border-radius: 10px;
+
+}
+
+.musicicon{
+    padding: 25px;
+    width: 53px;
+}
+
+p{
+    color: rgb(99, 99, 99);
+
+}
+
+.producttext{
+    line-height: 8px;
+    padding: 17px;
+    margin-left: 12px;
+}

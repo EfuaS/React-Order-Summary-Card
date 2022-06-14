@@ -1,0 +1,29 @@
+a{
+    font-size: 18px;
+    padding: 30px;
+    margin-top: 7px;
+    color: rgb(33, 3, 102);
+    cursor: pointer;
+}
+
+.buttons{
+    text-align: center;
+
+
+}
+
+.paymentbtn{
+    width: 400px;
+    border: 0px;
+    margin: 30px;
+    border-radius: 15px;
+    background-color: hsl(251, 100%, 59%);
+    box-shadow: 20px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 15px;
+    cursor: pointer;
+    box-shadow: 0px 15px 20px 1px rgb(110, 110, 192);
+    -webkit-box-shadow: 0px 12px 20px 1px rgb(168, 168, 252);
+}
